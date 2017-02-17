@@ -44,21 +44,20 @@ body{
 .section__bg-1{
     width: 100%;
     height: 388px;
-    background-color: white;
-    opacity: 0.4;
     margin-top: 20px;
-    position: absolute;
 }
 .section__bg-2{
     width:778px;
     height: 408px;
-    background-color: white;
-    opacity: 0.4;
     margin-top: 10px;
     margin-left: 14px;
+}
+.background{
+    background-color: white;
+    opacity: 0.4;
     position: absolute;
 }
-.section-product{
+.section-card{
     width: 750px;
     height: 428px;
     margin-left: 28px;
@@ -67,6 +66,44 @@ body{
     opacity: 0.99;
     background-image: linear-gradient(rgba(236,232,235,1) -50px, rgba(243,243,243,0.7) 15%);
 }
-.div {
-
+.item{
+    float: left;
 }
+.section-card__left{
+    width: 502px;
+    height: 428px;
+    text-align: right;
+    position: relative;
+}
+.bg-title{
+    margin-top: 63px;
+}
+.cross{
+    position: absolute;
+    left: 0;
+    margin-top: 95px;
+    margin-left: 44px;
+}
+.cross:hover{
+    transform: scale(1.1);
+}
+.section-card__slider{
+    position: absolute;
+}
+.slider-item{
+    position: absolute;
+    left: 175px;
+    bottom: 23px;
+}
+.slider-item__img:nth-child(n+2){
+    margin-left: 18px;
+}
+.slider-item__img:hover{
+    transform: scale(1.1);
+}
+.section-card__right{
+    width: 248px;
+    height: 428px;
+    background-color: white;
+}
+
