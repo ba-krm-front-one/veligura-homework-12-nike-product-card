@@ -5,6 +5,7 @@ body{
     height: 100%;
     background: url("../img/bg.png") no-repeat center;
     background-size: cover;
+    font-family: Roboto;
 }
 .container{
     max-width: 806px;
@@ -21,7 +22,6 @@ body{
     margin-right: 53px;
 }
 .menu__link{
-    font-family: Roboto;
     color: #ffffff;
     font-size: 12.14px; /* Приближение из-за подстановки шрифтов */
     font-weight: 300;
@@ -30,6 +30,7 @@ body{
 }
 .menu__link:hover{
     text-decoration: underline;
+
 }
 .menu-logo{
     margin-right: 164px;
@@ -106,4 +107,89 @@ body{
     height: 428px;
     background-color: white;
 }
-
+.card-info{
+    margin-left: 31px;
+    padding-top: 43px;
+    color: #000000;
+}
+.card-info__new-btn{
+    background-color:  #ffa60d;
+    width: 42px;
+    height: 24px;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    border: none;
+    margin-bottom: 8px;
+}
+.card-info__new-btn:hover{
+    background-color: #5e4fff;
+}
+.card-info__title{
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-right: 10px;
+    margin-bottom: 15px;
+    font-size: 24px; /* Приближение из-за подстановки шрифтов */
+}
+.card-info__title span{
+    color:  #5e4fff;
+}
+.card-info__stars{
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    margin-bottom: 18px;
+}
+.rate{
+    display: inline-block;
+    margin-right: 16px;
+}
+.card-info__price{
+    font-size: 22px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 300;
+    margin-bottom: 26px;
+}
+.card-info-form__btn-form{
+    margin-right: 15px;
+    border: none;
+    background: none;
+    font-size: 15px;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    margin-bottom: 26px;
+    margin-left: -6px;
+}
+.card-info-form__btn-form:active{
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #0f0f0f;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    cursor: pointer;
+}
+.btn-form{
+    width: 118px;
+    height: 30px;
+    font-size: 12px;/* Приближение из-за подстановки шрифтов */
+}
+.btn-add{
+    border: none;
+    background-color:  #a200b8;
+    color:  #ffffff;
+    margin-bottom: 4px;
+}
+.btn-add:hover{
+    background-color: #5e4fff;
+}
+.btn-list{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #0f0f0f;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    color:  #000000;
+}
+.btn-list:hover{
+    margin-top: 2px;
+    background-color: #5e4fff;
+}
